@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<main id="hero">
+    <div class="promo">
+        <h1>Your life. Our mission.</h1>
+         <p>Elite medical response when seconds matter. Enroll today for 24/7 
+            protection.</p>
+    </div>
+    <video muted autoplay loop src="{% static '/images/homeTraumaVideo.mp4' %}" type="video/mp4">
+    </video>
+    <div class="layer"></div>
+</main>
+<div class="show_container">
+    <div class="show_columns">
+        <div class="show_column">
+            <img src="{% static '/images/crew.png'%}" alt="">
+        </div>
+        <div class="show_column">
+            <h2>Your Ultimate Lifeline in a World of Chaos</h2>
+            <p>At Trauma Team, we pride ourselves on being the #1 rapid response medical
+                 service in the world. When every second counts, we're there—saving lives,
+                  neutralizing threats, and giving our clients the protection they need 
+                  to live fearlessly.</p>
+        </div>  
+    </div>
+    <div class="comments_container">
+        <h2>What Our Clients Say:</h2>
+        <div class="comments_columns">
+            
+            <div class="comment_column">
+                
+        <img src="{% static '/images/saburo_arasaka.png'%}" alt="saburo">
+        <p> “企業襲撃の後、トラウマチームが私の命を救ってくれました。彼らは前にもそこにいました 
+            何が起こっているのかさえ分かりました."<br> — Saburo Arasaka, CEO of Arasaka</p>
+            </div>
+        <div class="comment_column">
+            <img src="{% static '/images/ncpd_officer.png'%}" alt="officer">
+        <p>"Had a cyberpsychosis outbreak in my district—called Trauma Team. They handled
+             the crisis with precision."<br> — Sergeant V. Velasquez, NCPD</p>
+        </div>
+
+        <div class="comment_column">
+            <img src="{% static '/images/kerry.png' %}" alt="kerry">
+            <p>"Had a little 'accident' after a gig—called Trauma Team. They patched me up like nothing ever happened. Gotta give credit where it's due."<br> — Kerry Eurodyne, Rockerboy Legend</p>
+        </div>
+
+
+        
+        </div>
+        
+    </div>
+</div>
+<div class="benefits_container">
+    <h2>Benefits of Choosing Trauma Team Coverage</h2>
+    <div class="benefits_columns">
+        <div class="benefit_column">
+            <img src="{% static '/images/trauma.png' %}" alt="trauma">
+            <h3>Making the Right Choice for Your Survival</h3>
+            <p>We provide the guidance you need to choose the Trauma Team insurance plan
+                 that fits your lifestyle and risk level. With our cutting-edge tools,
+                  your protection is just a click away</p>
+        </div>
+        <div class="benefit_column">
+            <img src="{% static '/images/best_price.png' %}" alt="best_price">
+            <h3>Pay the Best Price for the Fastest Care</h3>
+            <p>No hidden fees. No inflated costs. When you enroll in Trauma Team, you pay
+                 the price set by us, ensuring you get elite care at the fairest price 
+                 in Night City.</p>
+        </div>
+        <div class="benefit_column">
+            <img src="{% static '/images/medics.png' %}" alt="medics">
+            <h3>Elite Medical Assistance</h3>
+            <p>Our team is available 24/7. Whether through holo-calls, direct chat, or 
+                in-person assistance, you are always connected to the best emergency 
+                services in the city. We’ll be there before you know it.</p>
+        </div>
+    </div>
+</div>
+<div class="corp_container">
+    <h2>Our principal corporate customers</h2>
+    <div class="corp_columns">
+        <div class="corp_column">
+            <img  src="{% static '/images/arasaka.png' %}" alt="">
+        </div>
+        <div class="corp_column">
+            <img  src="{% static '/images/kang_tao.png' %}"" alt="">
+        </div>
+        <div class="corp_column">
+            <img  src="{% static '/images/militech.png' %}" alt="">
+        </div>
+        <div class="corp_column">
+            <img  src="{% static '/images/biotechnica.png' %}" alt="">
+        </div>  
+    </div>
+</div>
+
+
+
+{% endblock %}
